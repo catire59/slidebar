@@ -1,0 +1,23 @@
+/* Cambiamos el color azul aburrido por un degradado moderno */
+.btn-primary {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b) !important;
+    border: none !important;
+    border-radius: 25px !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+/* Efecto visual cuando pasas el mouse por encima del botón */
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4) !important;
+}
+
+/* Efecto visual para que toda la tarjeta se eleve un poco al pasar el mouse */
+.card-personalizada {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-personalizada:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
