@@ -16,10 +16,12 @@
 </head>
 
 <body>
-    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
-    style="position: fixed; right: 20px; bottom: 20px; z-index: 99999;
-           width: 50px; height: 50px; border-radius: 50%;
-           background: rgb(16, 145, 209); color: white; font-size: 25px; border: none;">↑</button>
+    <a href="#" 
+   onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;"
+   aria-label="Volver al principio"
+   class="back-to-top">
+    <i class="fas fa-angle-up"></i>
+</a>
 
     <ul class="nav shadow d-flex flex-column sidebar mobile-hid">
         <li class="nav-item logo-holder">
